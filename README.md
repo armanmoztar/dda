@@ -18,8 +18,7 @@ This project is a mobile app for the Developmental Disabilities Association (DDA
 1. Clone the repository
 2. Install dependencies with `yarn install`
 3. Run the server with `yarn start`. Additionally, you can do `npx expo start --android` or `npx expo start --ios` if you already know the type of emulator you will be working with.
-5. If you are using an emulator, you can press `a` to run the app on an Android emulator or `i` to run the app on an iOS emulator.
-6. You can also scan the QR code with your phone to run the app on your phone.
+4. You can also scan the QR code presented in your terminal to run the app on your phone.
 
 ## License
 This project is licensed under the MIT License.
