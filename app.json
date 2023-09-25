@@ -3,7 +3,6 @@
     "name": "DDA",
     "slug": "dda",
     "privacy": "public",
-    "sdkVersion": "35.0.0",
     "platforms": [
       "ios",
       "android"
