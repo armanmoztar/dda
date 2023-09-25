@@ -11,10 +11,9 @@ Expo - mobile app framework
 
 ## Getting Started
 1. Clone the repository
-2. Install dependencies with 'yarn install'
-3. Run the server with 'yarn start'
-4. Using expo, run the app on your phone or emulator with 'npx expo start'
-5. If you are using an emulator, you can press 'a' to run the app on an android emulator or 'i' to run the app on an ios emulator. (You will need xcode installed for an ios emulator).
+2. Install dependencies with `yarn install`
+3. Run the server with `yarn start`
+5. If you are using an emulator, you can press `a` to run the app on an Android emulator or `i` to run the app on an iOS emulator. (You will need Xcode installed for an iOS emulator).
 6. You can also scan the QR code with your phone to run the app on your phone.
 
 ## License
