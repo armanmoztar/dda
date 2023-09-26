@@ -1,16 +1,18 @@
 import React from 'react';
-import { Platform, StatusBar, StyleSheet, View } from 'react-native';
+import { Platform, StatusBar, StyleSheet, View, AppRegistry } from 'react-native';
 import { AppLoading } from 'expo';
 import AppContainer from './src/navigation/AppContainer';
 import Amplify from 'aws-amplify';
 
-Amplify.configure({
-  Auth: {
-    region: 'ca-central-1',
-    userPoolId: 'ca-central-1_bgiztNJBA',
-    userPoolWebClientId: '4uf6v103ij9q0nir40opiod39',
-  }
-});
+
+
+// Amplify.configure({
+//   Auth: {
+//     region: 'ca-central-1',
+//     userPoolId: 'ca-central-1_bgiztNJBA',
+//     userPoolWebClientId: '4uf6v103ij9q0nir40opiod39',
+//   }
+// });
 
 export default class App extends React.Component {
   state = {

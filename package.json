@@ -1,11 +1,12 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "index.js",
   "scripts": {
     "start": "npx expo start",
     "android": "npx expo start --android",
     "ios": "npx expo start --ios",
     "eject": "npx expo eject",
-    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll",
+    "postinstall": "patch-package"
   },
   "jest": {
     "preset": "jest-expo"
@@ -15,12 +16,15 @@
     "@expo/vector-icons": "^13.0.0",
     "@react-native-async-storage/async-storage": "1.18.2",
     "@react-native-community/netinfo": "9.3.10",
-    "aws-amplify": "5.3.11",
+    "aws-amplify": "^5.3.11",
     "aws-amplify-react-native": "7.0.7",
+    "deprecated-react-native-prop-types": "^4.2.1",
     "expo": "^49.0.0",
     "expo-asset": "~8.10.1",
     "expo-font": "~11.4.0",
     "moment": "^2.24.0",
+    "patch-package": "^8.0.0",
+    "postinstall-postinstall": "^2.1.0",
     "react": "18.2.0",
     "react-native": "0.72.4",
     "react-native-elements": "3.4.3",
