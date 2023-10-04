@@ -2,7 +2,7 @@ import React from 'react';
 import { Platform, StatusBar, StyleSheet, View, AppRegistry } from 'react-native';
 import { AppLoading } from 'expo';
 import AppContainer from './src/navigation/AppContainer';
-import Amplify from 'aws-amplify';
+// import Amplify from 'aws-amplify';
 
 
 

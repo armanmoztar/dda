@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "DDA",
+    "displayName": "Developmental Disabilities Association",
     "slug": "dda",
     "privacy": "public",
     "platforms": [
