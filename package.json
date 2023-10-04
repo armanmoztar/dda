@@ -1,5 +1,5 @@
 {
-  "main": "index.js",
+  "main": "App.js",
   "scripts": {
     "start": "npx expo start",
     "android": "npx expo start --android",
@@ -26,7 +26,7 @@
     "patch-package": "^8.0.0",
     "postinstall-postinstall": "^2.1.0",
     "react": "18.2.0",
-    "react-native": "0.72.4",
+    "react-native": "0.72.5",
     "react-native-elements": "3.4.3",
     "react-native-gesture-handler": "~2.12.0",
     "react-native-modal": "^13.0.1",
